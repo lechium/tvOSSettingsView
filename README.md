@@ -7,8 +7,5 @@ Black background
 
 Clear background
 
-<<<<<<< Updated upstream
-![alt text](Settings_View_Clear.png "Black Background")
-=======
-![alt text](Settings_View_Clear.png "Black Background")
->>>>>>> Stashed changes
+![alt text](Settings_View_Clear.png "Clear Background")
+
