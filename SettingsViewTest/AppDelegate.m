@@ -9,33 +9,38 @@
 #import "AppDelegate.h"
 #import "BasicViewController.h"
 
+
 @interface AppDelegate ()
 
 @end
 
 @implementation AppDelegate
 
-- (void)itemSelectedAtIndexPath:(NSIndexPath *)indexPath fromNavigationController:(SettingsViewController *)me
+- (void)itemSelectedAtIndexPath:(NSIndexPath *)indexPath fromNavigationController:(UINavigationController *)navCon
 {
     NSLog(@"selected item at indexPath: %@", indexPath);
     if (indexPath.row == 0)
     {
-        BasicViewController *bvc = [BasicViewController new];
-        [me pushViewController:bvc animated:true];
+        SettingsViewController *viewCon = [SettingsViewController settingsViewControllerWithTitle:@"Settings 2" backgroundColor:[UIColor clearColor] withItemNames:@[@"Logs", @"Shares", @"Packages", @"PackageMaker", @"Reboot", @"RSS", @"Search", @"Shutdown", @"Weather", @"YouTube"] withImages:@[@"Console", @"GenericSharepoint", @"package", @"packagemaker", @"reboot", @"rss", @"search", @"Shutdown", @"Weather", @"YTPlaceholder"]];
+        
+        
+        [navCon pushViewController:viewCon animated:true];
     }
 }
+
+
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
 
-    SettingsViewController *viewCon = [SettingsViewController new];
-    viewCon.viewTitle = @"Settings";
-    viewCon.backgroundColor = [UIColor clearColor];
-    viewCon.itemNames = @[@"Logs", @"Shares", @"Packages", @"PackageMaker", @"Reboot", @"RSS", @"Search", @"Shutdown", @"Weather", @"YouTube"];
-    viewCon.imageNames = @[@"Console", @"GenericSharepoint", @"package", @"packagemaker", @"reboot", @"rss", @"search", @"Shutdown", @"Weather", @"YTPlaceholder"];
-    viewCon.delegate = self;
-    self.window.rootViewController = viewCon;
+    UINavigationController *navController = [UINavigationController new];
+    SettingsViewController *viewCon = [SettingsViewController settingsViewControllerWithTitle:@"Settings" backgroundColor:[UIColor blackColor] withItemNames:@[@"Logs", @"Shares", @"Packages", @"PackageMaker", @"Reboot", @"RSS", @"Search", @"Shutdown", @"Weather", @"YouTube"] withImages:@[@"Console", @"GenericSharepoint", @"package", @"packagemaker", @"reboot", @"rss", @"search", @"Shutdown", @"Weather", @"YTPlaceholder"]];
+ 
+    viewCon.selectionDelegate = self;
+  
+    navController.viewControllers = @[viewCon];
+    self.window.rootViewController = navController;
     
     [self.window makeKeyAndVisible];
     

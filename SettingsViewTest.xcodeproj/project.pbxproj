@@ -9,10 +9,9 @@
 /* Begin PBXBuildFile section */
 		898E93881C910E1C00B34DAA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 898E93871C910E1C00B34DAA /* main.m */; };
 		898E938B1C910E1C00B34DAA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 898E938A1C910E1C00B34DAA /* AppDelegate.m */; };
-		898E938E1C910E1C00B34DAA /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 898E938D1C910E1C00B34DAA /* SettingsViewController.m */; };
 		898E93931C910E1C00B34DAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 898E93921C910E1C00B34DAA /* Assets.xcassets */; };
 		898E939E1C910F4400B34DAA /* YTPlaceholder.png in Resources */ = {isa = PBXBuildFile; fileRef = 898E939D1C910F4400B34DAA /* YTPlaceholder.png */; };
-		898E93B11C91CF2100B34DAA /* RZSplitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 898E93B01C91CF2100B34DAA /* RZSplitViewController.m */; };
+		898E93B11C91CF2100B34DAA /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 898E93B01C91CF2100B34DAA /* SettingsViewController.m */; };
 		898E93BB1C91DDDC00B34DAA /* Console.png in Resources */ = {isa = PBXBuildFile; fileRef = 898E93B21C91DDDC00B34DAA /* Console.png */; };
 		898E93BC1C91DDDC00B34DAA /* GenericSharepoint.png in Resources */ = {isa = PBXBuildFile; fileRef = 898E93B31C91DDDC00B34DAA /* GenericSharepoint.png */; };
 		898E93BD1C91DDDC00B34DAA /* package.png in Resources */ = {isa = PBXBuildFile; fileRef = 898E93B41C91DDDC00B34DAA /* package.png */; };
@@ -23,6 +22,7 @@
 		898E93C21C91DDDC00B34DAA /* shutdown.png in Resources */ = {isa = PBXBuildFile; fileRef = 898E93B91C91DDDC00B34DAA /* shutdown.png */; };
 		898E93C31C91DDDC00B34DAA /* weather.png in Resources */ = {isa = PBXBuildFile; fileRef = 898E93BA1C91DDDC00B34DAA /* weather.png */; };
 		898E93C61C91E70400B34DAA /* BasicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 898E93C51C91E70400B34DAA /* BasicViewController.m */; };
+		898E93C81C92118800B34DAA /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 898E93C71C92118800B34DAA /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,13 +30,11 @@
 		898E93871C910E1C00B34DAA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		898E93891C910E1C00B34DAA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		898E938A1C910E1C00B34DAA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		898E938C1C910E1C00B34DAA /* SettingsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
-		898E938D1C910E1C00B34DAA /* SettingsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
 		898E93921C910E1C00B34DAA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		898E93941C910E1C00B34DAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		898E939D1C910F4400B34DAA /* YTPlaceholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = YTPlaceholder.png; sourceTree = "<group>"; };
-		898E93AF1C91CF2100B34DAA /* RZSplitViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RZSplitViewController.h; sourceTree = "<group>"; };
-		898E93B01C91CF2100B34DAA /* RZSplitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RZSplitViewController.m; sourceTree = "<group>"; };
+		898E93AF1C91CF2100B34DAA /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		898E93B01C91CF2100B34DAA /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
 		898E93B21C91DDDC00B34DAA /* Console.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Console.png; sourceTree = "<group>"; };
 		898E93B31C91DDDC00B34DAA /* GenericSharepoint.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GenericSharepoint.png; sourceTree = "<group>"; };
 		898E93B41C91DDDC00B34DAA /* package.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = package.png; sourceTree = "<group>"; };
@@ -48,6 +46,7 @@
 		898E93BA1C91DDDC00B34DAA /* weather.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = weather.png; sourceTree = "<group>"; };
 		898E93C41C91E70400B34DAA /* BasicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasicViewController.h; sourceTree = "<group>"; };
 		898E93C51C91E70400B34DAA /* BasicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasicViewController.m; sourceTree = "<group>"; };
+		898E93C71C92118800B34DAA /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,14 +79,13 @@
 		898E93851C910E1C00B34DAA /* SettingsViewTest */ = {
 			isa = PBXGroup;
 			children = (
+				898E93C71C92118800B34DAA /* README.md */,
 				898E93891C910E1C00B34DAA /* AppDelegate.h */,
 				898E938A1C910E1C00B34DAA /* AppDelegate.m */,
 				898E93C41C91E70400B34DAA /* BasicViewController.h */,
 				898E93C51C91E70400B34DAA /* BasicViewController.m */,
-				898E938C1C910E1C00B34DAA /* SettingsViewController.h */,
-				898E938D1C910E1C00B34DAA /* SettingsViewController.m */,
-				898E93AF1C91CF2100B34DAA /* RZSplitViewController.h */,
-				898E93B01C91CF2100B34DAA /* RZSplitViewController.m */,
+				898E93AF1C91CF2100B34DAA /* SettingsViewController.h */,
+				898E93B01C91CF2100B34DAA /* SettingsViewController.m */,
 				898E93921C910E1C00B34DAA /* Assets.xcassets */,
 				898E93941C910E1C00B34DAA /* Info.plist */,
 				898E93861C910E1C00B34DAA /* Supporting Files */,
@@ -191,9 +189,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				898E938E1C910E1C00B34DAA /* SettingsViewController.m in Sources */,
 				898E938B1C910E1C00B34DAA /* AppDelegate.m in Sources */,
-				898E93B11C91CF2100B34DAA /* RZSplitViewController.m in Sources */,
+				898E93B11C91CF2100B34DAA /* SettingsViewController.m in Sources */,
+				898E93C81C92118800B34DAA /* README.md in Sources */,
 				898E93C61C91E70400B34DAA /* BasicViewController.m in Sources */,
 				898E93881C910E1C00B34DAA /* main.m in Sources */,
 			);
@@ -328,6 +326,7 @@
 				898E93991C910E1C00B34DAA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
