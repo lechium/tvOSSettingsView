@@ -31,7 +31,7 @@
 
     SettingsViewController *viewCon = [SettingsViewController new];
     viewCon.viewTitle = @"Settings";
-    viewCon.backgroundColor = [UIColor blackColor];
+    viewCon.backgroundColor = [UIColor clearColor];
     viewCon.itemNames = @[@"Logs", @"Shares", @"Packages", @"PackageMaker", @"Reboot", @"RSS", @"Search", @"Shutdown", @"Weather", @"YouTube"];
     viewCon.imageNames = @[@"Console", @"GenericSharepoint", @"package", @"packagemaker", @"reboot", @"rss", @"search", @"Shutdown", @"Weather", @"YTPlaceholder"];
     viewCon.delegate = self;
