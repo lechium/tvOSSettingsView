@@ -22,7 +22,7 @@
 		898E93C21C91DDDC00B34DAA /* shutdown.png in Resources */ = {isa = PBXBuildFile; fileRef = 898E93B91C91DDDC00B34DAA /* shutdown.png */; };
 		898E93C31C91DDDC00B34DAA /* weather.png in Resources */ = {isa = PBXBuildFile; fileRef = 898E93BA1C91DDDC00B34DAA /* weather.png */; };
 		898E93C61C91E70400B34DAA /* BasicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 898E93C51C91E70400B34DAA /* BasicViewController.m */; };
-		898E93C81C92118800B34DAA /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 898E93C71C92118800B34DAA /* README.md */; };
+		898E93CA1C9212DB00B34DAA /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 898E93C91C9212DB00B34DAA /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,7 +46,7 @@
 		898E93BA1C91DDDC00B34DAA /* weather.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = weather.png; sourceTree = "<group>"; };
 		898E93C41C91E70400B34DAA /* BasicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasicViewController.h; sourceTree = "<group>"; };
 		898E93C51C91E70400B34DAA /* BasicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasicViewController.m; sourceTree = "<group>"; };
-		898E93C71C92118800B34DAA /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		898E93C91C9212DB00B34DAA /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +63,7 @@
 		898E937A1C910E1C00B34DAA = {
 			isa = PBXGroup;
 			children = (
+				898E93C91C9212DB00B34DAA /* README.md */,
 				898E93851C910E1C00B34DAA /* SettingsViewTest */,
 				898E93841C910E1C00B34DAA /* Products */,
 			);
@@ -79,7 +80,6 @@
 		898E93851C910E1C00B34DAA /* SettingsViewTest */ = {
 			isa = PBXGroup;
 			children = (
-				898E93C71C92118800B34DAA /* README.md */,
 				898E93891C910E1C00B34DAA /* AppDelegate.h */,
 				898E938A1C910E1C00B34DAA /* AppDelegate.m */,
 				898E93C41C91E70400B34DAA /* BasicViewController.h */,
@@ -191,7 +191,7 @@
 			files = (
 				898E938B1C910E1C00B34DAA /* AppDelegate.m in Sources */,
 				898E93B11C91CF2100B34DAA /* SettingsViewController.m in Sources */,
-				898E93C81C92118800B34DAA /* README.md in Sources */,
+				898E93CA1C9212DB00B34DAA /* README.md in Sources */,
 				898E93C61C91E70400B34DAA /* BasicViewController.m in Sources */,
 				898E93881C910E1C00B34DAA /* main.m in Sources */,
 			);
